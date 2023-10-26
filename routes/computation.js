@@ -12,4 +12,5 @@ router.get('/', function(req, res, next) {
   }
   res.render('computation', { title: `Function imul is applied to ${rand} is ${imul}, Function log is applied to ${rand} is ${log}, Function log10 is applied to ${rand} is ${log10}` });
 });
+
 module.exports = router;
